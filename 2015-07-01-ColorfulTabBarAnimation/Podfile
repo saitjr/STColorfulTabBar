@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target '2015-07-01-ColorfulTabBarAnimation' do
+
+pod 'TKit', '~>1.1.2'
+pod 'pop', '~>1.0.7'
+
+end
+
+target '2015-07-01-ColorfulTabBarAnimationTests' do
+
+end
+

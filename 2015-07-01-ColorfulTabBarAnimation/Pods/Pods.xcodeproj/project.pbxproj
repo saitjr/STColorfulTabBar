@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01109A0957C1DF7B6B00F2A2 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EB4A08E3933D1FBCB8AC27 /* Reachability.h */; };
+		012BE670D5E13674EF9BD645 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C236B768B4F5C965630D88 /* UnitBezier.h */; };
+		054836D0BD38805FCD6446BD /* NSMutableArray+TBasicTools.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD5CDD55C64FDCB408D5707 /* NSMutableArray+TBasicTools.h */; };
+		076D593B31348E7F25575595 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C29F9F7C760E8B82C9CC29 /* POP.h */; };
+		0872A341CAB4D2B444478EFD /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF3261AD3995E40160BF3B /* UIView+Layer.m */; };
+		0B06D071F35607CE2C432E86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD6A27535204C3953F9AE5A /* Foundation.framework */; };
+		0B86CBE7E566BD2C69C1EFCE /* UIAlertView+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = A01FF068A197D224F496F0AB /* UIAlertView+Blocks.h */; };
+		0C2C2D352BA0E5511583F2FA /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD75D2F8B134FC9D0EAD78 /* POPAnimation.mm */; };
+		0CE8C3500CAC8672E017B2D1 /* UIAlertView+TBasicTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8F1F22D4D5147BA7A5D2DB /* UIAlertView+TBasicTools.m */; };
+		0F559804B2F3E48E0270CC09 /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E8CAF8058EC0414FF62FA3 /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-dummy.m */; };
+		171E2F6F4AE489284A612B52 /* UIImage+TBasicTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A87F0B0BE681F59F78672 /* UIImage+TBasicTools.m */; };
+		1B2FBDEB6055DE6A1806DC4E /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D534615E019ED1F3D1841F /* POPGeometry.h */; };
+		1C97268C76892513DA113A14 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3E7BCB86EADA2728D231A6 /* POPAnimatorPrivate.h */; };
+		1E52E6806192394398C09E33 /* UIColor+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A1B05D64DB537D6106D0E8 /* UIColor+Expand.h */; };
+		2302ED8C2FD19860999A2143 /* UIView+Layer.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DF56B1E64508FA3688CBC1 /* UIView+Layer.h */; };
+		2581F0AC1F1CFA7C796FA528 /* UIView+TBasicTools.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC62B7B0CE36016E717822D /* UIView+TBasicTools.h */; };
+		259E1CF35AE95CE84D448282 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = D1DDCA354AB3D835C6069633 /* POPAnimationRuntime.mm */; };
+		261A0AEBE78DFADF1856D5BA /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FB2A9C828F2A925A4B53F6 /* POPSpringAnimationInternal.h */; };
+		2B3854C1A60F0370ED7A80ED /* UIView+ChangePartFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D9F98F348A94A9CC48DADF /* UIView+ChangePartFrame.h */; };
+		2F795847FF1D3904DBBE6CA4 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F0D616CEE103D5F5A5ABEF /* POPAction.h */; };
+		30FC71546939C216714ED1A9 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C4650FBCAA154C535A6DDEDC /* UIAlertView+Blocks.m */; };
+		34FD852B8E1B938D6849BF4B /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9778B159E2B3DA08D0ED28C2 /* UIActionSheet+Blocks.m */; };
+		379765571069AFE4B34D6D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD6A27535204C3953F9AE5A /* Foundation.framework */; };
+		3AEA635927A1D22D097C4473 /* TTools.h in Headers */ = {isa = PBXBuildFile; fileRef = C922DC3D124E188E62E1C902 /* TTools.h */; };
+		3B0C56488242E5B4F00E0EBC /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E03F464A7163CB70E210050F /* POPAnimationEventInternal.h */; };
+		5687C3A8C31D9DB951D6DF53 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A8F8709ADDF81D234EB2C7 /* POPSpringAnimation.h */; };
+		56C6E535A2629F4424EABD39 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0E726ED446F9E506FE049465 /* POPVector.mm */; };
+		5995CC878A22749D827308DE /* NSMutableArray+TBasicTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E48338B5EB221422889E019E /* NSMutableArray+TBasicTools.m */; };
+		5AE4F0107030BD5AD5EA7D26 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4062F2ACD3D47831A14A7617 /* POPAnimationExtras.mm */; };
+		5E878A8928AF30977C071EC1 /* UIScrollView+TTouchEndEditing.m in Sources */ = {isa = PBXBuildFile; fileRef = E94F4318F47D483D8F4E51E0 /* UIScrollView+TTouchEndEditing.m */; };
+		616CBC82DFF0AC21497EB7A0 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79090D4476EE846090C2C353 /* POPAnimationEvent.mm */; };
+		616E279ADFC2E553E83A51F3 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA8AEC6F8CA3B1394030AC3 /* POPCustomAnimation.h */; };
+		65F2D5B16528C98179AD1D75 /* UIImage+TBasicTools.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0C31BA9BC0BBE918EFCC32 /* UIImage+TBasicTools.h */; };
+		67929ADB31258682029EF719 /* TScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E789A28928F3DFBBA9A2C476 /* TScrollView.h */; };
+		67C149AEBDF9238E1606D24B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BE21BFB532A084AB3BB2EEAE /* Reachability.m */; };
+		6B5CA20CB5039EB61074C4DB /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F91060ED17EE6BFB944612 /* POPBasicAnimationInternal.h */; };
+		6EC6453A069A75511FF66867 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E66109DE2A86278316B9618 /* POPCGUtils.mm */; };
+		71027A98E210381350900B34 /* TConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C947E2D102C3E6841CE002 /* TConst.h */; };
+		757F8C91CA62486218716448 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 703F1DD9603B883D44E3613A /* POPBasicAnimation.h */; };
+		765D22E4A47B3D1BF9E816B9 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = ED56A01D45F2A580AB08E5EA /* POPAnimator.h */; };
+		778144B71CC7637C093E5B06 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA69B482154D095BF0D48C8 /* POPAnimationInternal.h */; };
+		778787E46DB21A828505355A /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B43D4854547CC12B18667E33 /* POPAnimationTracer.mm */; };
+		77C66A0F1E5DB6914B329B17 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3B2C2039AF80AA2FD9F7BE /* POPAnimationEvent.h */; };
+		77D10D9A8988A1430ED27DA8 /* UIColor+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C90D0F328A7EB1AB6547E6 /* UIColor+Expand.m */; };
+		7B2A2F90639C6C974E4B820C /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3B442F6E1618EABABFB8F5 /* POPPropertyAnimation.h */; };
+		7E5319834692D8A6586C7F7C /* TKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3F1F2191814A09597A1580 /* TKit.h */; };
+		7EA8963AD5A283261A3E3AD6 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D279ED88DB6A32C008BC8A5F /* GTMBase64.m */; };
+		7F97BF74FF9F12A3A98F4AFA /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D0B33177EF030CA3C07E6 /* POPMath.mm */; };
+		808BAD5F8A354B6D9F03BAB4 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B13190C818A3B70A52E4A65B /* POPCGUtils.h */; };
+		80FD02599696EC4FBFB8B657 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6581D64A06EA56E31359196B /* POPBasicAnimation.mm */; };
+		84AA9964471A3EFFBE896DB9 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE6BAEC9834EC87622625E9 /* POPAnimationExtras.h */; };
+		8578A947363370EC258651F2 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 1979F1C2249767F86979C4CC /* POPSpringSolver.h */; };
+		8588B100580CE1033A24A7E3 /* TConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0CD24FD9D59F65D3648F3 /* TConst.m */; };
+		871D74307C74434E7611B55B /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 734BD7640CF7C45C1703AEB1 /* POPDecayAnimationInternal.h */; };
+		87D0EB1F229F4592A935EC48 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1449F9425956BB155C5FF571 /* POPAnimationRuntime.h */; };
+		8A6D0C929A87B8A2BF38FEA7 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1771A4C96E6F5D5479D2D87A /* POPAnimation.h */; };
+		8ECC5BD70D2409422E38C3BB /* UIBarButtonItem+InitFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8615B9C652AE22FA64530791 /* UIBarButtonItem+InitFunctions.h */; };
+		8F0FACB2BF6D72A4B2BF91FD /* Pods-2015-07-01-ColorfulTabBarAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED6CD8B07123DA2404500F /* Pods-2015-07-01-ColorfulTabBarAnimation-dummy.m */; };
+		8F4B3B66182C236449AE1BED /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B17FFF26774F00F73B4FE66 /* POPDecayAnimation.h */; };
+		942A6E0B04A943838B4DA136 /* NSMutableDictionary+BasicTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A62DC109A313FAD777C641B2 /* NSMutableDictionary+BasicTools.m */; };
+		970C30B01EAC2D6ED6EF64DB /* UIBarButtonItem+InitFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3665D2A8385D8726AA4EBD5 /* UIBarButtonItem+InitFunctions.m */; };
+		99F8BCBBA8C07A844DC8E1AE /* NSMutableDictionary+BasicTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A408A73B09FC65290BE5670 /* NSMutableDictionary+BasicTools.h */; };
+		A2C07A6C6A3A2528518035AE /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C5AF831D1012D48F56C732 /* POPPropertyAnimationInternal.h */; };
+		AAE04A61B2E49D9A845C1321 /* UIView+ChangePartFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D4343B4D2981237B0A7BDB14 /* UIView+ChangePartFrame.m */; };
+		AE5CBA3D489A84EEA24FB2D9 /* UIAlertView+TBasicTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A099640B77EE3D97863FD069 /* UIAlertView+TBasicTools.h */; };
+		B04332232866CDF8CDB2AA15 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6BD785CCF74B99C5979527 /* POPAnimationTracer.h */; };
+		B1A37FE9E2339101892CB6B0 /* UIScrollView+TTouchEndEditing.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CC08733117517C02E904F6 /* UIScrollView+TTouchEndEditing.h */; };
+		B6638D76721461446C3DAA75 /* UIActionSheet+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 219F488FFB6C000D92D5386F /* UIActionSheet+Blocks.h */; };
+		B895D297394287BCBA3B5E61 /* TDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A733F2D1FA7A1B48084A0B78 /* TDefine.h */; };
+		BD0F2ECA62D50C13605CFB0F /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D17B026F4C0290FBC0DB8E6C /* POPAnimationPrivate.h */; };
+		BD92ABD7E0164210F09A0CCB /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A96F0DF48558B16AAEEDB728 /* POPSpringAnimation.mm */; };
+		C2A5882BF0B6830AF0A017E7 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2F68C6277AD26FEF52A6FD /* POPDefines.h */; };
+		C676F086FED9C3699FEDF5E7 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = D0A3824DCD87AB0BB0EEF4F9 /* POPDecayAnimation.mm */; };
+		CCC42FCB82BEF4EDD5CD2073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD6A27535204C3953F9AE5A /* Foundation.framework */; };
+		D01F2893A729E12546276B31 /* TTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B6F33683F69BDB2844849A /* TTools.m */; };
+		D3B9B4BCE3B9734BA2674CFB /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A3A9F49B68BB3561CF711D /* POPAnimationTracerInternal.h */; };
+		D4ABC2B5635D64C5571C856A /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 453A705F811CC4AAEAFF1228 /* POPAnimatableProperty.h */; };
+		D51B1FD404520599D7F333FB /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = DA95295448EFD3243BF5D726 /* GTMBase64.h */; };
+		D671FA8A41A48DBC29AAD55F /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2329260ED141149C75C1D236 /* POPPropertyAnimation.mm */; };
+		D8FDCD785346E72208BCFFCA /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = E789AFD6A549C92D04C5CDA5 /* POPMath.h */; };
+		DE78336FADD2D780F92280E1 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = E646F323ED89310D6975AAA0 /* POPCustomAnimation.mm */; };
+		DF10D55C8E8EF661108D77B8 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 418319C6A763703912DBB810 /* POPGeometry.mm */; };
+		E11558D88C482D93AE6524EF /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2843B7A4FE45D11E38CAE433 /* POPVector.h */; };
+		E2680AD1501C4AD516BA76BB /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = C71556920576BD24914973F2 /* POPAnimator.mm */; };
+		E5B94BC13BD6F3638CD4961A /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E17F3A69CB9328441EFF57D /* TransformationMatrix.h */; };
+		E61B2F91F79D957257259E3F /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8F4D3FDC8E275C229DDEDA4F /* POPLayerExtras.mm */; };
+		EAD93011CBD77AA8893A7DEA /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9BE4E9FEE4A5BE56AC07F1 /* POPLayerExtras.h */; };
+		EE81AA27D3D98B3667DD8363 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 87FDF39A38CF9C126AEC2798 /* POPAnimatableProperty.mm */; };
+		EFE205FAB7BBC323D1A02C2B /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C97AA8B3089960664937E532 /* TransformationMatrix.cpp */; };
+		F30BD2A855CC96D58635F16A /* TScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1187FBF974715E894A7558F /* TScrollView.m */; };
+		F3B80BDB77FA0A8526DE1984 /* UIView+TBasicTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3203F524144E80038EA5208C /* UIView+TBasicTools.m */; };
+		F86BFB289491AF1274114E23 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE500AB7314ED98368686E8 /* FloatConversion.h */; };
+		FA379B0513A14488A166D5C9 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1FC93D80BABE21178130E2 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-dummy.m */; };
+		FEA8AF1211FEBADF7B5E6D4C /* TUIs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9005AC6119E4398D93D150F8 /* TUIs.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11E73F4D64CA84E7CF8E7FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F4A676ECAA7E9DC8EBD82AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E9431CE94C43542B7557BC;
+			remoteInfo = "Pods-2015-07-01-ColorfulTabBarAnimation-pop";
+		};
+		2ACB453ACCE2820B88123F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F4A676ECAA7E9DC8EBD82AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FF9918B99BA608C791C9A7;
+			remoteInfo = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09A3A9F49B68BB3561CF711D /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		0A0D0B33177EF030CA3C07E6 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		0B17FFF26774F00F73B4FE66 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		0BCF3261AD3995E40160BF3B /* UIView+Layer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layer.m"; path = "TKit/TUIs/Category/UIView+Layer.m"; sourceTree = "<group>"; };
+		0E726ED446F9E506FE049465 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		0EE6BAEC9834EC87622625E9 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		12C5AF831D1012D48F56C732 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		13EB4A08E3933D1FBCB8AC27 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = TKit/OtherLib/Reachability/Reachability.h; sourceTree = "<group>"; };
+		1449F9425956BB155C5FF571 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		1771A4C96E6F5D5479D2D87A /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		1979F1C2249767F86979C4CC /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		1B3E7BCB86EADA2728D231A6 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		1BA8AEC6F8CA3B1394030AC3 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		1BECC9FB774D10D39960E6F2 /* Pods-2015-07-01-ColorfulTabBarAnimation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-2015-07-01-ColorfulTabBarAnimation-resources.sh"; sourceTree = "<group>"; };
+		1E17F3A69CB9328441EFF57D /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		219F488FFB6C000D92D5386F /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+Blocks.h"; path = "TKit/TUIs/Category/UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		2329260ED141149C75C1D236 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		2541D93F32AAD57A29F04C26 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit-prefix.pch"; sourceTree = "<group>"; };
+		25C90D0F328A7EB1AB6547E6 /* UIColor+Expand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Expand.m"; path = "TKit/TUIs/Category/UIColor+Expand.m"; sourceTree = "<group>"; };
+		26F91060ED17EE6BFB944612 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		2843B7A4FE45D11E38CAE433 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		2A2F68C6277AD26FEF52A6FD /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		2A5DC7B5ECE0F55CA7F5756D /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-2015-07-01-ColorfulTabBarAnimation-pop-Private.xcconfig"; sourceTree = "<group>"; };
+		2A6BD785CCF74B99C5979527 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		2FA5F9EAB66B233ADD59B819 /* libPods-2015-07-01-ColorfulTabBarAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2015-07-01-ColorfulTabBarAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3203F524144E80038EA5208C /* UIView+TBasicTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TBasicTools.m"; path = "TKit/TUIs/Category/UIView+TBasicTools.m"; sourceTree = "<group>"; };
+		3A408A73B09FC65290BE5670 /* NSMutableDictionary+BasicTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+BasicTools.h"; path = "TKit/TTools/Category/NSMutableDictionary+BasicTools.h"; sourceTree = "<group>"; };
+		3B3F1F2191814A09597A1580 /* TKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKit.h; path = TKit/TKit.h; sourceTree = "<group>"; };
+		3F4A7FAA91002ED9979113DD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4062F2ACD3D47831A14A7617 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		418319C6A763703912DBB810 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		453A705F811CC4AAEAFF1228 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		46D534615E019ED1F3D1841F /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		4927DDD067D4C4E0F6084B23 /* libPods-2015-07-01-ColorfulTabBarAnimation-pop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2015-07-01-ColorfulTabBarAnimation-pop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E66109DE2A86278316B9618 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		4FFD75D2F8B134FC9D0EAD78 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		51E8CAF8058EC0414FF62FA3 /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-2015-07-01-ColorfulTabBarAnimation-pop-dummy.m"; sourceTree = "<group>"; };
+		58A2FC335D964432B81DE839 /* Pods-2015-07-01-ColorfulTabBarAnimation-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-2015-07-01-ColorfulTabBarAnimation-environment.h"; sourceTree = "<group>"; };
+		5BD6A27535204C3953F9AE5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63C947E2D102C3E6841CE002 /* TConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TConst.h; path = TKit/TDefine/TConst.h; sourceTree = "<group>"; };
+		6581D64A06EA56E31359196B /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		703F1DD9603B883D44E3613A /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		70ED6CD8B07123DA2404500F /* Pods-2015-07-01-ColorfulTabBarAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-2015-07-01-ColorfulTabBarAnimation-dummy.m"; sourceTree = "<group>"; };
+		734BD7640CF7C45C1703AEB1 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		76798A765888CA623F06380C /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit-Private.xcconfig"; sourceTree = "<group>"; };
+		76C0CD24FD9D59F65D3648F3 /* TConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TConst.m; path = TKit/TDefine/TConst.m; sourceTree = "<group>"; };
+		79090D4476EE846090C2C353 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		80168605840AF5D7ACCFA39D /* Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		83B3C697F2E41032E22D3EB0 /* libPods-2015-07-01-ColorfulTabBarAnimation-TKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2015-07-01-ColorfulTabBarAnimation-TKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A1B05D64DB537D6106D0E8 /* UIColor+Expand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Expand.h"; path = "TKit/TUIs/Category/UIColor+Expand.h"; sourceTree = "<group>"; };
+		8615B9C652AE22FA64530791 /* UIBarButtonItem+InitFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+InitFunctions.h"; path = "TKit/TUIs/Category/UIBarButtonItem+InitFunctions.h"; sourceTree = "<group>"; };
+		868ABFDE894CBD0E15F92F37 /* Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		87FDF39A38CF9C126AEC2798 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		8F4D3FDC8E275C229DDEDA4F /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		9005AC6119E4398D93D150F8 /* TUIs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUIs.h; path = TKit/TUIs/Header/TUIs.h; sourceTree = "<group>"; };
+		94C236B768B4F5C965630D88 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		94DF56B1E64508FA3688CBC1 /* UIView+Layer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layer.h"; path = "TKit/TUIs/Category/UIView+Layer.h"; sourceTree = "<group>"; };
+		9778B159E2B3DA08D0ED28C2 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+Blocks.m"; path = "TKit/TUIs/Category/UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		97F0D616CEE103D5F5A5ABEF /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		9A3B2C2039AF80AA2FD9F7BE /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		A01FF068A197D224F496F0AB /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+Blocks.h"; path = "TKit/TUIs/Category/UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		A099640B77EE3D97863FD069 /* UIAlertView+TBasicTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+TBasicTools.h"; path = "TKit/TUIs/Category/UIAlertView+TBasicTools.h"; sourceTree = "<group>"; };
+		A48AF05E0329E1BE5163E865 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit.xcconfig"; sourceTree = "<group>"; };
+		A5FB2A9C828F2A925A4B53F6 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		A62DC109A313FAD777C641B2 /* NSMutableDictionary+BasicTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+BasicTools.m"; path = "TKit/TTools/Category/NSMutableDictionary+BasicTools.m"; sourceTree = "<group>"; };
+		A733F2D1FA7A1B48084A0B78 /* TDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDefine.h; path = TKit/TDefine/TDefine.h; sourceTree = "<group>"; };
+		A7C29F9F7C760E8B82C9CC29 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		A96F0DF48558B16AAEEDB728 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		AEA69B482154D095BF0D48C8 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		B1187FBF974715E894A7558F /* TScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TScrollView.m; path = TKit/TUIs/Classes/TScrollView.m; sourceTree = "<group>"; };
+		B13190C818A3B70A52E4A65B /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		B43D4854547CC12B18667E33 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		BE21BFB532A084AB3BB2EEAE /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = TKit/OtherLib/Reachability/Reachability.m; sourceTree = "<group>"; };
+		BEA3D0D3B130AD85C2BE33CE /* Pods-2015-07-01-ColorfulTabBarAnimation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-2015-07-01-ColorfulTabBarAnimation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEE500AB7314ED98368686E8 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		C4650FBCAA154C535A6DDEDC /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Blocks.m"; path = "TKit/TUIs/Category/UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		C71556920576BD24914973F2 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		C922DC3D124E188E62E1C902 /* TTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTools.h; path = TKit/TTools/Classes/TTools.h; sourceTree = "<group>"; };
+		C97AA8B3089960664937E532 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		C9B6F33683F69BDB2844849A /* TTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTools.m; path = TKit/TTools/Classes/TTools.m; sourceTree = "<group>"; };
+		CA58510B1491589D2685E3B4 /* Pods-2015-07-01-ColorfulTabBarAnimation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-2015-07-01-ColorfulTabBarAnimation-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD9BE4E9FEE4A5BE56AC07F1 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		CF9A87F0B0BE681F59F78672 /* UIImage+TBasicTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TBasicTools.m"; path = "TKit/TUIs/Category/UIImage+TBasicTools.m"; sourceTree = "<group>"; };
+		D0A3824DCD87AB0BB0EEF4F9 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		D17B026F4C0290FBC0DB8E6C /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		D1DDCA354AB3D835C6069633 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		D279ED88DB6A32C008BC8A5F /* GTMBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMBase64.m; path = TKit/OtherLib/GTMBase64/GTMBase64.m; sourceTree = "<group>"; };
+		D2CC08733117517C02E904F6 /* UIScrollView+TTouchEndEditing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TTouchEndEditing.h"; path = "TKit/TUIs/Category/UIScrollView+TTouchEndEditing.h"; sourceTree = "<group>"; };
+		D4343B4D2981237B0A7BDB14 /* UIView+ChangePartFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChangePartFrame.m"; path = "TKit/TUIs/Category/UIView+ChangePartFrame.m"; sourceTree = "<group>"; };
+		D7D9F98F348A94A9CC48DADF /* UIView+ChangePartFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChangePartFrame.h"; path = "TKit/TUIs/Category/UIView+ChangePartFrame.h"; sourceTree = "<group>"; };
+		DA95295448EFD3243BF5D726 /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMBase64.h; path = TKit/OtherLib/GTMBase64/GTMBase64.h; sourceTree = "<group>"; };
+		DC1FC93D80BABE21178130E2 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit-dummy.m"; sourceTree = "<group>"; };
+		E03F464A7163CB70E210050F /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		E3665D2A8385D8726AA4EBD5 /* UIBarButtonItem+InitFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+InitFunctions.m"; path = "TKit/TUIs/Category/UIBarButtonItem+InitFunctions.m"; sourceTree = "<group>"; };
+		E48338B5EB221422889E019E /* NSMutableArray+TBasicTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+TBasicTools.m"; path = "TKit/TTools/Category/NSMutableArray+TBasicTools.m"; sourceTree = "<group>"; };
+		E646F323ED89310D6975AAA0 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		E789A28928F3DFBBA9A2C476 /* TScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TScrollView.h; path = TKit/TUIs/Classes/TScrollView.h; sourceTree = "<group>"; };
+		E789AFD6A549C92D04C5CDA5 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		E94F4318F47D483D8F4E51E0 /* UIScrollView+TTouchEndEditing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TTouchEndEditing.m"; path = "TKit/TUIs/Category/UIScrollView+TTouchEndEditing.m"; sourceTree = "<group>"; };
+		EB8F1F22D4D5147BA7A5D2DB /* UIAlertView+TBasicTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+TBasicTools.m"; path = "TKit/TUIs/Category/UIAlertView+TBasicTools.m"; sourceTree = "<group>"; };
+		EB9B0A91BDD16683ED57A4CD /* Pods-2015-07-01-ColorfulTabBarAnimation-pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-2015-07-01-ColorfulTabBarAnimation-pop.xcconfig"; sourceTree = "<group>"; };
+		ED0C31BA9BC0BBE918EFCC32 /* UIImage+TBasicTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TBasicTools.h"; path = "TKit/TUIs/Category/UIImage+TBasicTools.h"; sourceTree = "<group>"; };
+		ED56A01D45F2A580AB08E5EA /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		EE05850111858C9BBBC92BDB /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-2015-07-01-ColorfulTabBarAnimation-pop-prefix.pch"; sourceTree = "<group>"; };
+		F5A8F8709ADDF81D234EB2C7 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		FBD5CDD55C64FDCB408D5707 /* NSMutableArray+TBasicTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+TBasicTools.h"; path = "TKit/TTools/Category/NSMutableArray+TBasicTools.h"; sourceTree = "<group>"; };
+		FD3B442F6E1618EABABFB8F5 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		FDC62B7B0CE36016E717822D /* UIView+TBasicTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TBasicTools.h"; path = "TKit/TUIs/Category/UIView+TBasicTools.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F126766EC108900D756C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC42FCB82BEF4EDD5CD2073 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B460FE82D09507AFA13EACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379765571069AFE4B34D6D9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1FFFE8B3F65F11AFB997B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B06D071F35607CE2C432E86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64DD3C6552BCFE81583B9676 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D1B7B7867A6B5B7B505835 /* Pods-2015-07-01-ColorfulTabBarAnimation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77D1B7B7867A6B5B7B505835 /* Pods-2015-07-01-ColorfulTabBarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BEA3D0D3B130AD85C2BE33CE /* Pods-2015-07-01-ColorfulTabBarAnimation-acknowledgements.markdown */,
+				CA58510B1491589D2685E3B4 /* Pods-2015-07-01-ColorfulTabBarAnimation-acknowledgements.plist */,
+				70ED6CD8B07123DA2404500F /* Pods-2015-07-01-ColorfulTabBarAnimation-dummy.m */,
+				58A2FC335D964432B81DE839 /* Pods-2015-07-01-ColorfulTabBarAnimation-environment.h */,
+				1BECC9FB774D10D39960E6F2 /* Pods-2015-07-01-ColorfulTabBarAnimation-resources.sh */,
+				868ABFDE894CBD0E15F92F37 /* Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig */,
+				80168605840AF5D7ACCFA39D /* Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig */,
+			);
+			name = "Pods-2015-07-01-ColorfulTabBarAnimation";
+			path = "Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation";
+			sourceTree = "<group>";
+		};
+		808EF8B236A72B29B19E817F = {
+			isa = PBXGroup;
+			children = (
+				3F4A7FAA91002ED9979113DD /* Podfile */,
+				87692A3FA5212D432C86A9A2 /* Frameworks */,
+				E7B29E1388B4A22E087B4298 /* Pods */,
+				E2D6E23A9F32ED08FF5F0E1C /* Products */,
+				64DD3C6552BCFE81583B9676 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87692A3FA5212D432C86A9A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9221F2E5510C246E4B5E70 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A63D91714ADA3F0E7CFEDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A48AF05E0329E1BE5163E865 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit.xcconfig */,
+				76798A765888CA623F06380C /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-Private.xcconfig */,
+				DC1FC93D80BABE21178130E2 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-dummy.m */,
+				2541D93F32AAD57A29F04C26 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation-TKit";
+			sourceTree = "<group>";
+		};
+		AC9221F2E5510C246E4B5E70 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5BD6A27535204C3953F9AE5A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE014DCB9E8B4B7FD00D365C /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				BEE500AB7314ED98368686E8 /* FloatConversion.h */,
+				A7C29F9F7C760E8B82C9CC29 /* POP.h */,
+				97F0D616CEE103D5F5A5ABEF /* POPAction.h */,
+				453A705F811CC4AAEAFF1228 /* POPAnimatableProperty.h */,
+				87FDF39A38CF9C126AEC2798 /* POPAnimatableProperty.mm */,
+				1771A4C96E6F5D5479D2D87A /* POPAnimation.h */,
+				4FFD75D2F8B134FC9D0EAD78 /* POPAnimation.mm */,
+				9A3B2C2039AF80AA2FD9F7BE /* POPAnimationEvent.h */,
+				79090D4476EE846090C2C353 /* POPAnimationEvent.mm */,
+				E03F464A7163CB70E210050F /* POPAnimationEventInternal.h */,
+				0EE6BAEC9834EC87622625E9 /* POPAnimationExtras.h */,
+				4062F2ACD3D47831A14A7617 /* POPAnimationExtras.mm */,
+				AEA69B482154D095BF0D48C8 /* POPAnimationInternal.h */,
+				D17B026F4C0290FBC0DB8E6C /* POPAnimationPrivate.h */,
+				1449F9425956BB155C5FF571 /* POPAnimationRuntime.h */,
+				D1DDCA354AB3D835C6069633 /* POPAnimationRuntime.mm */,
+				2A6BD785CCF74B99C5979527 /* POPAnimationTracer.h */,
+				B43D4854547CC12B18667E33 /* POPAnimationTracer.mm */,
+				09A3A9F49B68BB3561CF711D /* POPAnimationTracerInternal.h */,
+				ED56A01D45F2A580AB08E5EA /* POPAnimator.h */,
+				C71556920576BD24914973F2 /* POPAnimator.mm */,
+				1B3E7BCB86EADA2728D231A6 /* POPAnimatorPrivate.h */,
+				703F1DD9603B883D44E3613A /* POPBasicAnimation.h */,
+				6581D64A06EA56E31359196B /* POPBasicAnimation.mm */,
+				26F91060ED17EE6BFB944612 /* POPBasicAnimationInternal.h */,
+				B13190C818A3B70A52E4A65B /* POPCGUtils.h */,
+				4E66109DE2A86278316B9618 /* POPCGUtils.mm */,
+				1BA8AEC6F8CA3B1394030AC3 /* POPCustomAnimation.h */,
+				E646F323ED89310D6975AAA0 /* POPCustomAnimation.mm */,
+				0B17FFF26774F00F73B4FE66 /* POPDecayAnimation.h */,
+				D0A3824DCD87AB0BB0EEF4F9 /* POPDecayAnimation.mm */,
+				734BD7640CF7C45C1703AEB1 /* POPDecayAnimationInternal.h */,
+				2A2F68C6277AD26FEF52A6FD /* POPDefines.h */,
+				46D534615E019ED1F3D1841F /* POPGeometry.h */,
+				418319C6A763703912DBB810 /* POPGeometry.mm */,
+				CD9BE4E9FEE4A5BE56AC07F1 /* POPLayerExtras.h */,
+				8F4D3FDC8E275C229DDEDA4F /* POPLayerExtras.mm */,
+				E789AFD6A549C92D04C5CDA5 /* POPMath.h */,
+				0A0D0B33177EF030CA3C07E6 /* POPMath.mm */,
+				FD3B442F6E1618EABABFB8F5 /* POPPropertyAnimation.h */,
+				2329260ED141149C75C1D236 /* POPPropertyAnimation.mm */,
+				12C5AF831D1012D48F56C732 /* POPPropertyAnimationInternal.h */,
+				F5A8F8709ADDF81D234EB2C7 /* POPSpringAnimation.h */,
+				A96F0DF48558B16AAEEDB728 /* POPSpringAnimation.mm */,
+				A5FB2A9C828F2A925A4B53F6 /* POPSpringAnimationInternal.h */,
+				1979F1C2249767F86979C4CC /* POPSpringSolver.h */,
+				2843B7A4FE45D11E38CAE433 /* POPVector.h */,
+				0E726ED446F9E506FE049465 /* POPVector.mm */,
+				C97AA8B3089960664937E532 /* TransformationMatrix.cpp */,
+				1E17F3A69CB9328441EFF57D /* TransformationMatrix.h */,
+				94C236B768B4F5C965630D88 /* UnitBezier.h */,
+				D850EC9D44B1ED29E2DB7AC3 /* Support Files */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		D850EC9D44B1ED29E2DB7AC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B0A91BDD16683ED57A4CD /* Pods-2015-07-01-ColorfulTabBarAnimation-pop.xcconfig */,
+				2A5DC7B5ECE0F55CA7F5756D /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-Private.xcconfig */,
+				51E8CAF8058EC0414FF62FA3 /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-dummy.m */,
+				EE05850111858C9BBBC92BDB /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation-pop";
+			sourceTree = "<group>";
+		};
+		E2D6E23A9F32ED08FF5F0E1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA5F9EAB66B233ADD59B819 /* libPods-2015-07-01-ColorfulTabBarAnimation.a */,
+				83B3C697F2E41032E22D3EB0 /* libPods-2015-07-01-ColorfulTabBarAnimation-TKit.a */,
+				4927DDD067D4C4E0F6084B23 /* libPods-2015-07-01-ColorfulTabBarAnimation-pop.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E705E5D29EC07DF0E1195ABB /* TKit */ = {
+			isa = PBXGroup;
+			children = (
+				DA95295448EFD3243BF5D726 /* GTMBase64.h */,
+				D279ED88DB6A32C008BC8A5F /* GTMBase64.m */,
+				FBD5CDD55C64FDCB408D5707 /* NSMutableArray+TBasicTools.h */,
+				E48338B5EB221422889E019E /* NSMutableArray+TBasicTools.m */,
+				3A408A73B09FC65290BE5670 /* NSMutableDictionary+BasicTools.h */,
+				A62DC109A313FAD777C641B2 /* NSMutableDictionary+BasicTools.m */,
+				13EB4A08E3933D1FBCB8AC27 /* Reachability.h */,
+				BE21BFB532A084AB3BB2EEAE /* Reachability.m */,
+				63C947E2D102C3E6841CE002 /* TConst.h */,
+				76C0CD24FD9D59F65D3648F3 /* TConst.m */,
+				A733F2D1FA7A1B48084A0B78 /* TDefine.h */,
+				3B3F1F2191814A09597A1580 /* TKit.h */,
+				E789A28928F3DFBBA9A2C476 /* TScrollView.h */,
+				B1187FBF974715E894A7558F /* TScrollView.m */,
+				C922DC3D124E188E62E1C902 /* TTools.h */,
+				C9B6F33683F69BDB2844849A /* TTools.m */,
+				9005AC6119E4398D93D150F8 /* TUIs.h */,
+				219F488FFB6C000D92D5386F /* UIActionSheet+Blocks.h */,
+				9778B159E2B3DA08D0ED28C2 /* UIActionSheet+Blocks.m */,
+				A01FF068A197D224F496F0AB /* UIAlertView+Blocks.h */,
+				C4650FBCAA154C535A6DDEDC /* UIAlertView+Blocks.m */,
+				A099640B77EE3D97863FD069 /* UIAlertView+TBasicTools.h */,
+				EB8F1F22D4D5147BA7A5D2DB /* UIAlertView+TBasicTools.m */,
+				8615B9C652AE22FA64530791 /* UIBarButtonItem+InitFunctions.h */,
+				E3665D2A8385D8726AA4EBD5 /* UIBarButtonItem+InitFunctions.m */,
+				85A1B05D64DB537D6106D0E8 /* UIColor+Expand.h */,
+				25C90D0F328A7EB1AB6547E6 /* UIColor+Expand.m */,
+				ED0C31BA9BC0BBE918EFCC32 /* UIImage+TBasicTools.h */,
+				CF9A87F0B0BE681F59F78672 /* UIImage+TBasicTools.m */,
+				D2CC08733117517C02E904F6 /* UIScrollView+TTouchEndEditing.h */,
+				E94F4318F47D483D8F4E51E0 /* UIScrollView+TTouchEndEditing.m */,
+				D7D9F98F348A94A9CC48DADF /* UIView+ChangePartFrame.h */,
+				D4343B4D2981237B0A7BDB14 /* UIView+ChangePartFrame.m */,
+				94DF56B1E64508FA3688CBC1 /* UIView+Layer.h */,
+				0BCF3261AD3995E40160BF3B /* UIView+Layer.m */,
+				FDC62B7B0CE36016E717822D /* UIView+TBasicTools.h */,
+				3203F524144E80038EA5208C /* UIView+TBasicTools.m */,
+				A0A63D91714ADA3F0E7CFEDA /* Support Files */,
+			);
+			path = TKit;
+			sourceTree = "<group>";
+		};
+		E7B29E1388B4A22E087B4298 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E705E5D29EC07DF0E1195ABB /* TKit */,
+				CE014DCB9E8B4B7FD00D365C /* pop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E149324E4953508FAEF233C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86BFB289491AF1274114E23 /* FloatConversion.h in Headers */,
+				076D593B31348E7F25575595 /* POP.h in Headers */,
+				2F795847FF1D3904DBBE6CA4 /* POPAction.h in Headers */,
+				D4ABC2B5635D64C5571C856A /* POPAnimatableProperty.h in Headers */,
+				8A6D0C929A87B8A2BF38FEA7 /* POPAnimation.h in Headers */,
+				77C66A0F1E5DB6914B329B17 /* POPAnimationEvent.h in Headers */,
+				3B0C56488242E5B4F00E0EBC /* POPAnimationEventInternal.h in Headers */,
+				84AA9964471A3EFFBE896DB9 /* POPAnimationExtras.h in Headers */,
+				778144B71CC7637C093E5B06 /* POPAnimationInternal.h in Headers */,
+				BD0F2ECA62D50C13605CFB0F /* POPAnimationPrivate.h in Headers */,
+				87D0EB1F229F4592A935EC48 /* POPAnimationRuntime.h in Headers */,
+				B04332232866CDF8CDB2AA15 /* POPAnimationTracer.h in Headers */,
+				D3B9B4BCE3B9734BA2674CFB /* POPAnimationTracerInternal.h in Headers */,
+				765D22E4A47B3D1BF9E816B9 /* POPAnimator.h in Headers */,
+				1C97268C76892513DA113A14 /* POPAnimatorPrivate.h in Headers */,
+				757F8C91CA62486218716448 /* POPBasicAnimation.h in Headers */,
+				6B5CA20CB5039EB61074C4DB /* POPBasicAnimationInternal.h in Headers */,
+				808BAD5F8A354B6D9F03BAB4 /* POPCGUtils.h in Headers */,
+				616E279ADFC2E553E83A51F3 /* POPCustomAnimation.h in Headers */,
+				8F4B3B66182C236449AE1BED /* POPDecayAnimation.h in Headers */,
+				871D74307C74434E7611B55B /* POPDecayAnimationInternal.h in Headers */,
+				C2A5882BF0B6830AF0A017E7 /* POPDefines.h in Headers */,
+				1B2FBDEB6055DE6A1806DC4E /* POPGeometry.h in Headers */,
+				EAD93011CBD77AA8893A7DEA /* POPLayerExtras.h in Headers */,
+				D8FDCD785346E72208BCFFCA /* POPMath.h in Headers */,
+				7B2A2F90639C6C974E4B820C /* POPPropertyAnimation.h in Headers */,
+				A2C07A6C6A3A2528518035AE /* POPPropertyAnimationInternal.h in Headers */,
+				5687C3A8C31D9DB951D6DF53 /* POPSpringAnimation.h in Headers */,
+				261A0AEBE78DFADF1856D5BA /* POPSpringAnimationInternal.h in Headers */,
+				8578A947363370EC258651F2 /* POPSpringSolver.h in Headers */,
+				E11558D88C482D93AE6524EF /* POPVector.h in Headers */,
+				E5B94BC13BD6F3638CD4961A /* TransformationMatrix.h in Headers */,
+				012BE670D5E13674EF9BD645 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC493023A712B6E8A69CBD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51B1FD404520599D7F333FB /* GTMBase64.h in Headers */,
+				054836D0BD38805FCD6446BD /* NSMutableArray+TBasicTools.h in Headers */,
+				99F8BCBBA8C07A844DC8E1AE /* NSMutableDictionary+BasicTools.h in Headers */,
+				01109A0957C1DF7B6B00F2A2 /* Reachability.h in Headers */,
+				71027A98E210381350900B34 /* TConst.h in Headers */,
+				B895D297394287BCBA3B5E61 /* TDefine.h in Headers */,
+				7E5319834692D8A6586C7F7C /* TKit.h in Headers */,
+				67929ADB31258682029EF719 /* TScrollView.h in Headers */,
+				3AEA635927A1D22D097C4473 /* TTools.h in Headers */,
+				FEA8AF1211FEBADF7B5E6D4C /* TUIs.h in Headers */,
+				B6638D76721461446C3DAA75 /* UIActionSheet+Blocks.h in Headers */,
+				0B86CBE7E566BD2C69C1EFCE /* UIAlertView+Blocks.h in Headers */,
+				AE5CBA3D489A84EEA24FB2D9 /* UIAlertView+TBasicTools.h in Headers */,
+				8ECC5BD70D2409422E38C3BB /* UIBarButtonItem+InitFunctions.h in Headers */,
+				1E52E6806192394398C09E33 /* UIColor+Expand.h in Headers */,
+				65F2D5B16528C98179AD1D75 /* UIImage+TBasicTools.h in Headers */,
+				B1A37FE9E2339101892CB6B0 /* UIScrollView+TTouchEndEditing.h in Headers */,
+				2B3854C1A60F0370ED7A80ED /* UIView+ChangePartFrame.h in Headers */,
+				2302ED8C2FD19860999A2143 /* UIView+Layer.h in Headers */,
+				2581F0AC1F1CFA7C796FA528 /* UIView+TBasicTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28E9431CE94C43542B7557BC /* Pods-2015-07-01-ColorfulTabBarAnimation-pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4722D234E043E75096FC72C /* Build configuration list for PBXNativeTarget "Pods-2015-07-01-ColorfulTabBarAnimation-pop" */;
+			buildPhases = (
+				AC3A79E523588D686DAE29CA /* Sources */,
+				22F126766EC108900D756C42 /* Frameworks */,
+				1E149324E4953508FAEF233C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-2015-07-01-ColorfulTabBarAnimation-pop";
+			productName = "Pods-2015-07-01-ColorfulTabBarAnimation-pop";
+			productReference = 4927DDD067D4C4E0F6084B23 /* libPods-2015-07-01-ColorfulTabBarAnimation-pop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5FF9918B99BA608C791C9A7 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7858997D8C40BC65BE24A322 /* Build configuration list for PBXNativeTarget "Pods-2015-07-01-ColorfulTabBarAnimation-TKit" */;
+			buildPhases = (
+				A2E80C5C449A901627CD9F71 /* Sources */,
+				5E1FFFE8B3F65F11AFB997B1 /* Frameworks */,
+				6AC493023A712B6E8A69CBD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit";
+			productName = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit";
+			productReference = 83B3C697F2E41032E22D3EB0 /* libPods-2015-07-01-ColorfulTabBarAnimation-TKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D5DAAFEA58D814593E6D4B1C /* Pods-2015-07-01-ColorfulTabBarAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1F3717BFE9F138EB37BF49 /* Build configuration list for PBXNativeTarget "Pods-2015-07-01-ColorfulTabBarAnimation" */;
+			buildPhases = (
+				FD4C3BAF849491FB8A9E3444 /* Sources */,
+				3B460FE82D09507AFA13EACD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF2126CC3D2FB03A479E349 /* PBXTargetDependency */,
+				4C185BDD92E45558B22E445A /* PBXTargetDependency */,
+			);
+			name = "Pods-2015-07-01-ColorfulTabBarAnimation";
+			productName = "Pods-2015-07-01-ColorfulTabBarAnimation";
+			productReference = 2FA5F9EAB66B233ADD59B819 /* libPods-2015-07-01-ColorfulTabBarAnimation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F4A676ECAA7E9DC8EBD82AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 4BD48A6C2FBF8F93D5EB9155 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 808EF8B236A72B29B19E817F;
+			productRefGroup = E2D6E23A9F32ED08FF5F0E1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DAAFEA58D814593E6D4B1C /* Pods-2015-07-01-ColorfulTabBarAnimation */,
+				A5FF9918B99BA608C791C9A7 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit */,
+				28E9431CE94C43542B7557BC /* Pods-2015-07-01-ColorfulTabBarAnimation-pop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2E80C5C449A901627CD9F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA8963AD5A283261A3E3AD6 /* GTMBase64.m in Sources */,
+				5995CC878A22749D827308DE /* NSMutableArray+TBasicTools.m in Sources */,
+				942A6E0B04A943838B4DA136 /* NSMutableDictionary+BasicTools.m in Sources */,
+				FA379B0513A14488A166D5C9 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-dummy.m in Sources */,
+				67C149AEBDF9238E1606D24B /* Reachability.m in Sources */,
+				8588B100580CE1033A24A7E3 /* TConst.m in Sources */,
+				F30BD2A855CC96D58635F16A /* TScrollView.m in Sources */,
+				D01F2893A729E12546276B31 /* TTools.m in Sources */,
+				34FD852B8E1B938D6849BF4B /* UIActionSheet+Blocks.m in Sources */,
+				30FC71546939C216714ED1A9 /* UIAlertView+Blocks.m in Sources */,
+				0CE8C3500CAC8672E017B2D1 /* UIAlertView+TBasicTools.m in Sources */,
+				970C30B01EAC2D6ED6EF64DB /* UIBarButtonItem+InitFunctions.m in Sources */,
+				77D10D9A8988A1430ED27DA8 /* UIColor+Expand.m in Sources */,
+				171E2F6F4AE489284A612B52 /* UIImage+TBasicTools.m in Sources */,
+				5E878A8928AF30977C071EC1 /* UIScrollView+TTouchEndEditing.m in Sources */,
+				AAE04A61B2E49D9A845C1321 /* UIView+ChangePartFrame.m in Sources */,
+				0872A341CAB4D2B444478EFD /* UIView+Layer.m in Sources */,
+				F3B80BDB77FA0A8526DE1984 /* UIView+TBasicTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3A79E523588D686DAE29CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE81AA27D3D98B3667DD8363 /* POPAnimatableProperty.mm in Sources */,
+				0C2C2D352BA0E5511583F2FA /* POPAnimation.mm in Sources */,
+				616CBC82DFF0AC21497EB7A0 /* POPAnimationEvent.mm in Sources */,
+				5AE4F0107030BD5AD5EA7D26 /* POPAnimationExtras.mm in Sources */,
+				259E1CF35AE95CE84D448282 /* POPAnimationRuntime.mm in Sources */,
+				778787E46DB21A828505355A /* POPAnimationTracer.mm in Sources */,
+				E2680AD1501C4AD516BA76BB /* POPAnimator.mm in Sources */,
+				80FD02599696EC4FBFB8B657 /* POPBasicAnimation.mm in Sources */,
+				6EC6453A069A75511FF66867 /* POPCGUtils.mm in Sources */,
+				DE78336FADD2D780F92280E1 /* POPCustomAnimation.mm in Sources */,
+				C676F086FED9C3699FEDF5E7 /* POPDecayAnimation.mm in Sources */,
+				DF10D55C8E8EF661108D77B8 /* POPGeometry.mm in Sources */,
+				E61B2F91F79D957257259E3F /* POPLayerExtras.mm in Sources */,
+				7F97BF74FF9F12A3A98F4AFA /* POPMath.mm in Sources */,
+				D671FA8A41A48DBC29AAD55F /* POPPropertyAnimation.mm in Sources */,
+				BD92ABD7E0164210F09A0CCB /* POPSpringAnimation.mm in Sources */,
+				56C6E535A2629F4424EABD39 /* POPVector.mm in Sources */,
+				0F559804B2F3E48E0270CC09 /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-dummy.m in Sources */,
+				EFE205FAB7BBC323D1A02C2B /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4C3BAF849491FB8A9E3444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0FACB2BF6D72A4B2BF91FD /* Pods-2015-07-01-ColorfulTabBarAnimation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C185BDD92E45558B22E445A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-2015-07-01-ColorfulTabBarAnimation-pop";
+			target = 28E9431CE94C43542B7557BC /* Pods-2015-07-01-ColorfulTabBarAnimation-pop */;
+			targetProxy = 11E73F4D64CA84E7CF8E7FC8 /* PBXContainerItemProxy */;
+		};
+		FCF2126CC3D2FB03A479E349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit";
+			target = A5FF9918B99BA608C791C9A7 /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit */;
+			targetProxy = 2ACB453ACCE2820B88123F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6A638D8BFF4ABA7CD57374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76798A765888CA623F06380C /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation-TKit/Pods-2015-07-01-ColorfulTabBarAnimation-TKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2DBC2CA4518AAA7CBB8B1A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868ABFDE894CBD0E15F92F37 /* Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		352F596610E60CEB115134B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687B34F3D50D00CDAA7A8132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5DC7B5ECE0F55CA7F5756D /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation-pop/Pods-2015-07-01-ColorfulTabBarAnimation-pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B11D72626BDBE4E8D2D23EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76798A765888CA623F06380C /* Pods-2015-07-01-ColorfulTabBarAnimation-TKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation-TKit/Pods-2015-07-01-ColorfulTabBarAnimation-TKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		98AFACAE7B372BDCFE55AEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D3F8E522E2DB3AF4FBCD0BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80168605840AF5D7ACCFA39D /* Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EF85928517A07E7EAA3EE346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5DC7B5ECE0F55CA7F5756D /* Pods-2015-07-01-ColorfulTabBarAnimation-pop-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation-pop/Pods-2015-07-01-ColorfulTabBarAnimation-pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BD48A6C2FBF8F93D5EB9155 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AFACAE7B372BDCFE55AEEC /* Debug */,
+				352F596610E60CEB115134B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7858997D8C40BC65BE24A322 /* Build configuration list for PBXNativeTarget "Pods-2015-07-01-ColorfulTabBarAnimation-TKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6A638D8BFF4ABA7CD57374 /* Debug */,
+				8B11D72626BDBE4E8D2D23EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1F3717BFE9F138EB37BF49 /* Build configuration list for PBXNativeTarget "Pods-2015-07-01-ColorfulTabBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBC2CA4518AAA7CBB8B1A9A /* Debug */,
+				D3F8E522E2DB3AF4FBCD0BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4722D234E043E75096FC72C /* Build configuration list for PBXNativeTarget "Pods-2015-07-01-ColorfulTabBarAnimation-pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85928517A07E7EAA3EE346 /* Debug */,
+				687B34F3D50D00CDAA7A8132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F4A676ECAA7E9DC8EBD82AB /* Project object */;
+}
