@@ -1,13 +1,10 @@
 PODS:
-  - pop (1.0.7)
   - TKit (1.1.2)
 
 DEPENDENCIES:
-  - pop (~> 1.0.7)
   - TKit (~> 1.1.2)
 
 SPEC CHECKSUMS:
-  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
   TKit: 2fa434a071cbe743b71f9b263f8d4c61705b44cd
 
 COCOAPODS: 0.37.2

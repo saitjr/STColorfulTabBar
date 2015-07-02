@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A5FF9918B99BA608C791C9A7"
+               BlueprintIdentifier = "53A29F7277B65F8722E45E4E"
                BuildableName = "libPods-2015-07-01-ColorfulTabBarAnimation-TKit.a"
                BlueprintName = "Pods-2015-07-01-ColorfulTabBarAnimation-TKit"
                ReferencedContainer = "container:Pods.xcodeproj">
