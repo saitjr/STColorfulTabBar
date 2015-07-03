@@ -2,6 +2,10 @@
 
 彩色的TabBar，加平滑的切换动画
 
+## 设计图
+
+![](./README-IMAGES/ColorfulTabBarDesign.gif)
+
 ## 效果展示
 
 ![](./README-IMAGES/result.gif)
