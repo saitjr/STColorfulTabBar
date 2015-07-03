@@ -42,3 +42,13 @@ Demo相关配置在`TColorfulTabBar+Configuration`这个类目当中，可以修
 // item的个数
 - (NSInteger)itemCount;
 ```
+
+## 技术支持
+
+[http://www.brighttj.com/ios/ios-colorful-tabbar-implement.html](http://www.brighttj.com/ios/ios-colorful-tabbar-implement.html)
+
+## 可能出现的问题
+
+因为当`TColorfulTabBar`加载到父视图上时，我让`TColorfulTabBar`响应了自己的代理方法，所以如果在`UITabBarController `中再次修改`delegate `，可能会导致`TColorfulTabBar`无法拿到下标。
+
+如果没有修改代理，那有可能会导致`UITabBarController`中的`UITabBarDelegate`无效。
