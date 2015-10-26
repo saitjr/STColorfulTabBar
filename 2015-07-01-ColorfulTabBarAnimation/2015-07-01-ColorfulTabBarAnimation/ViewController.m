@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "TColorfulTabBar.h"
-#import <TKit.h>
+#import "UIColor+STColorInit.h"
 
 @interface ViewController ()
 

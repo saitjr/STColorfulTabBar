@@ -7,7 +7,7 @@
 //
 
 #import "TColorfulTabBar+Configuration.h"
-#import <TKit.h>
+#import "UIColor+STColorInit.h"
 
 @implementation TColorfulTabBar (Configuration)
 

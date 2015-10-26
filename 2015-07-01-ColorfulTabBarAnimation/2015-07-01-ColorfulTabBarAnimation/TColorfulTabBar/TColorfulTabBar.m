@@ -8,7 +8,10 @@
 
 #import "TColorfulTabBar.h"
 #import "TColorfulTabBar+Configuration.h"
-#import <TKit.h>
+#import "UIColor+STColorInit.h"
+
+#define SELF_WIDTH CGRectGetWidth(self.bounds)
+#define SELF_HEIGHT CGRectGetHeight(self.bounds)
 
 @interface TColorfulTabBar () <UITabBarDelegate>
 
@@ -42,9 +45,9 @@
 
 - (void)setupMaskLayer {
     
-    CGFloat itemWidth = self.width / self.itemCount;
+    CGFloat itemWidth = SELF_WIDTH / self.itemCount;
     
-    UIView *colorMaskView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, itemWidth, self.height)];
+    UIView *colorMaskView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, itemWidth, SELF_HEIGHT)];
     colorMaskView.backgroundColor = [UIColor blackColor];
     self.colorfulMaskView = colorMaskView;
     self.colorfulView.layer.mask = self.colorfulMaskView.layer;
@@ -57,11 +60,11 @@
     self.colorfulView = colorView;
     
     NSArray *colors = [self itemColors];
-    CGFloat itemWidth = self.width / [self itemCount];
+    CGFloat itemWidth = SELF_WIDTH / [self itemCount];
     
     for (int i = 0; i < [self itemCount]; i ++) {
         
-        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(itemWidth * i, 0, itemWidth, self.height)];
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(itemWidth * i, 0, itemWidth, SELF_HEIGHT)];
         view.backgroundColor = colors[i];
         [self.colorfulView addSubview:view];
     }
@@ -69,15 +72,15 @@
 
 - (void)animation {
     
-    CGFloat itemWidth = self.width / [self itemCount];
+    CGFloat itemWidth = SELF_WIDTH / [self itemCount];
     CGFloat extraWidth = itemWidth / 4;
     
-    CGRect scaleFrame = CGRectMake(self.colorfulMaskView.x, 0, itemWidth + extraWidth, self.height);
-    CGRect toFrame = CGRectMake(self.toIndex * itemWidth, 0, itemWidth, self.height);
+    CGRect scaleFrame = CGRectMake(CGRectGetMinX(self.colorfulMaskView.frame), 0, itemWidth + extraWidth, SELF_HEIGHT);
+    CGRect toFrame = CGRectMake(self.toIndex * itemWidth, 0, itemWidth, SELF_HEIGHT);
     
     if (self.fromeIndex > self.toIndex) {
         
-        scaleFrame = CGRectMake(self.colorfulMaskView.x - extraWidth, 0, itemWidth + extraWidth, self.height);
+        scaleFrame = CGRectMake(CGRectGetMinX(self.colorfulMaskView.frame) - extraWidth, 0, itemWidth + extraWidth, SELF_HEIGHT);
     }
     
     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
@@ -98,6 +101,22 @@
     self.fromeIndex = self.toIndex;
     self.toIndex = index;
     [self animation];
+}
+
+- (void)layoutSubviews {
+    
+    [super layoutSubviews];
+    
+    CGFloat itemWidth = SELF_WIDTH / [self itemCount];
+    NSArray *subviews = self.colorfulView.subviews;
+    
+    self.colorfulMaskView.frame = CGRectMake(self.toIndex * itemWidth, 0, itemWidth, CGRectGetHeight(self.colorfulMaskView.frame));
+    
+    for (int i = 0; i < subviews.count; i ++) {
+        
+        UIView *view = subviews[i];
+        view.frame = CGRectMake(itemWidth * i, 0, itemWidth, SELF_HEIGHT);
+    }
 }
 
 @end

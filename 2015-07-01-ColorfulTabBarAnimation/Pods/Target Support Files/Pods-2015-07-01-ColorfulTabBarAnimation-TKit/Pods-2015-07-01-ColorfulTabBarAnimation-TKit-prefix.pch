@@ -1,5 +1,0 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#endif
-
-#import "Pods-2015-07-01-ColorfulTabBarAnimation-environment.h"

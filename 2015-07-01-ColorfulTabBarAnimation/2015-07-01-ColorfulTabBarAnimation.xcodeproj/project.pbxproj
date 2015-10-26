@@ -14,9 +14,9 @@
 		9642BC981B43C8A3003DC4EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9642BC971B43C8A3003DC4EE /* Images.xcassets */; };
 		9642BC9B1B43C8A3003DC4EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9642BC991B43C8A3003DC4EE /* LaunchScreen.xib */; };
 		9642BCA71B43C8A3003DC4EE /* _015_07_01_ColorfulTabBarAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9642BCA61B43C8A3003DC4EE /* _015_07_01_ColorfulTabBarAnimationTests.m */; };
+		968EDDB01BDE520C00CA74F1 /* UIColor+STColorInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EDDAF1BDE520C00CA74F1 /* UIColor+STColorInit.m */; settings = {ASSET_TAGS = (); }; };
 		969FCCA81B45049200D2913A /* TColorfulTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 969FCCA71B45049200D2913A /* TColorfulTabBar.m */; };
 		969FCCAB1B4504A500D2913A /* TColorfulTabBar+Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 969FCCAA1B4504A500D2913A /* TColorfulTabBar+Configuration.m */; };
-		9E6BCB9BD8BD45F7B7BEE639 /* libPods-2015-07-01-ColorfulTabBarAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EF867211F254FF24B47269 /* libPods-2015-07-01-ColorfulTabBarAnimation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4089085C12343EC5FE0895EB /* Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation/Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		9642BC871B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2015-07-01-ColorfulTabBarAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9642BC8B1B43C8A3003DC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9642BC8C1B43C8A3003DC4EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,12 +43,12 @@
 		9642BCA01B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2015-07-01-ColorfulTabBarAnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9642BCA51B43C8A3003DC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9642BCA61B43C8A3003DC4EE /* _015_07_01_ColorfulTabBarAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _015_07_01_ColorfulTabBarAnimationTests.m; sourceTree = "<group>"; };
+		968EDDAE1BDE520C00CA74F1 /* UIColor+STColorInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+STColorInit.h"; sourceTree = "<group>"; };
+		968EDDAF1BDE520C00CA74F1 /* UIColor+STColorInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+STColorInit.m"; sourceTree = "<group>"; };
 		969FCCA61B45049200D2913A /* TColorfulTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TColorfulTabBar.h; sourceTree = "<group>"; };
 		969FCCA71B45049200D2913A /* TColorfulTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TColorfulTabBar.m; sourceTree = "<group>"; };
 		969FCCA91B4504A500D2913A /* TColorfulTabBar+Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TColorfulTabBar+Configuration.h"; sourceTree = "<group>"; };
 		969FCCAA1B4504A500D2913A /* TColorfulTabBar+Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TColorfulTabBar+Configuration.m"; sourceTree = "<group>"; };
-		B1EF867211F254FF24B47269 /* libPods-2015-07-01-ColorfulTabBarAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-2015-07-01-ColorfulTabBarAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C19503B09E4F84A2C3381FCD /* Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation/Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E6BCB9BD8BD45F7B7BEE639 /* libPods-2015-07-01-ColorfulTabBarAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,18 +72,8 @@
 		332244E831DA4BA4139D49E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B1EF867211F254FF24B47269 /* libPods-2015-07-01-ColorfulTabBarAnimation.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9431FC7C15B3F23CB3C86E53 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C19503B09E4F84A2C3381FCD /* Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig */,
-				4089085C12343EC5FE0895EB /* Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		9642BC7E1B43C8A3003DC4EE = {
@@ -94,7 +82,6 @@
 				9642BC891B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimation */,
 				9642BCA31B43C8A3003DC4EE /* 2015-07-01-ColorfulTabBarAnimationTests */,
 				9642BC881B43C8A3003DC4EE /* Products */,
-				9431FC7C15B3F23CB3C86E53 /* Pods */,
 				332244E831DA4BA4139D49E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -157,6 +144,8 @@
 				969FCCA71B45049200D2913A /* TColorfulTabBar.m */,
 				969FCCA91B4504A500D2913A /* TColorfulTabBar+Configuration.h */,
 				969FCCAA1B4504A500D2913A /* TColorfulTabBar+Configuration.m */,
+				968EDDAE1BDE520C00CA74F1 /* UIColor+STColorInit.h */,
+				968EDDAF1BDE520C00CA74F1 /* UIColor+STColorInit.m */,
 			);
 			path = TColorfulTabBar;
 			sourceTree = "<group>";
@@ -168,11 +157,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9642BCAA1B43C8A3003DC4EE /* Build configuration list for PBXNativeTarget "2015-07-01-ColorfulTabBarAnimation" */;
 			buildPhases = (
-				8D9D3F4B00E0AE633A21506C /* Check Pods Manifest.lock */,
 				9642BC831B43C8A3003DC4EE /* Sources */,
 				9642BC841B43C8A3003DC4EE /* Frameworks */,
 				9642BC851B43C8A3003DC4EE /* Resources */,
-				C620B1B139A450791F60DEE8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,44 +245,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8D9D3F4B00E0AE633A21506C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C620B1B139A450791F60DEE8 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2015-07-01-ColorfulTabBarAnimation/Pods-2015-07-01-ColorfulTabBarAnimation-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		9642BC831B43C8A3003DC4EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968EDDB01BDE520C00CA74F1 /* UIColor+STColorInit.m in Sources */,
 				969FCCA81B45049200D2913A /* TColorfulTabBar.m in Sources */,
 				9642BC931B43C8A3003DC4EE /* ViewController.m in Sources */,
 				9642BC901B43C8A3003DC4EE /* AppDelegate.m in Sources */,
@@ -424,7 +379,6 @@
 		};
 		9642BCAB1B43C8A3003DC4EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C19503B09E4F84A2C3381FCD /* Pods-2015-07-01-ColorfulTabBarAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "2015-07-01-ColorfulTabBarAnimation/Info.plist";
@@ -435,7 +389,6 @@
 		};
 		9642BCAC1B43C8A3003DC4EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4089085C12343EC5FE0895EB /* Pods-2015-07-01-ColorfulTabBarAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "2015-07-01-ColorfulTabBarAnimation/Info.plist";
