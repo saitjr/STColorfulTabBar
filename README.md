@@ -1,6 +1,6 @@
 # TColorfulTabBar
 
-彩色的TabBar，加平滑的切换动画
+彩色的TabBar，加平滑的切换动画(gif图看起来有点掉帧...)
 
 ## 设计图
 
