@@ -10,7 +10,8 @@
 
 @interface UIColor (STColorInit)
 
+// 16进制颜色
 + (UIColor *)colorWithHex:(NSInteger)hexValue;
-+ (UIColor*)colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
++ (UIColor *)colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
 
 @end
