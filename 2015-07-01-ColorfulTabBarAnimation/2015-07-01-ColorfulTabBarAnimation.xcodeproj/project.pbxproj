@@ -381,12 +381,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: shenzhen bluepoint interaction technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiarong Tang (FAART6M2QD)";
 				INFOPLIST_FILE = "2015-07-01-ColorfulTabBarAnimation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.colorfulTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6dfa6659-f164-4385-a7be-705141305f29";
+				PROVISIONING_PROFILE = "786e4bff-7976-4a9e-8fca-68a8cf95f2ad";
 			};
 			name = Debug;
 		};
@@ -394,12 +394,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: shenzhen bluepoint interaction technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiarong Tang (FAART6M2QD)";
 				INFOPLIST_FILE = "2015-07-01-ColorfulTabBarAnimation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.colorfulTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6dfa6659-f164-4385-a7be-705141305f29";
+				PROVISIONING_PROFILE = "786e4bff-7976-4a9e-8fca-68a8cf95f2ad";
 			};
 			name = Release;
 		};

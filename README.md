@@ -43,7 +43,7 @@ Demo相关配置在`TColorfulTabBar+Configuration`这个类目当中，可以修
 
 ## 技术支持
 
-[http://www.brighttj.com/ios/ios-colorful-tabbar-implement.html](http://www.brighttj.com/ios/ios-colorful-tabbar-implement.html)
+[http://www.saitjr.com/ios/ios-colorful-tabbar-implement.html](http://www.saitjr.com/ios/ios-colorful-tabbar-implement.html)
 
 ## 可能出现的问题
 
